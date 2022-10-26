@@ -1,0 +1,47 @@
+.container {
+  background: white;
+  .navigationHeader {
+    display: flex;
+    height: 52px;
+    align-items: center;
+    .logo {
+      height: 24px;
+      padding-left: 10.4%;
+    }
+    .navigation {
+      margin-left: auto;
+      padding-right: 10.4%;
+    }
+  }
+}
+
+.banner {
+  height: 252px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.body {
+  max-width: 900px;
+  margin: auto;
+}
+
+.headline {
+  color: red;
+  max-width: 400px;
+  padding-top: 100px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.imgProduct {
+}
