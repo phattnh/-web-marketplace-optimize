@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ["https://cdn-image-web-marketplace.herokuapp.com"],
+    minimumCacheTTL: 60,
   },
 };
 
