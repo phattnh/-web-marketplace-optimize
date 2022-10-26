@@ -1,10 +1,5 @@
-import Image from "next/image";
-import Home from "./home/Home";
+import Home from "../src/modules/home/Home";
 
-export default function MainPage() {
-  return (
-    <div className="">
-      <Home />
-    </div>
-  );
+export default function HomePage() {
+  return <Home />;
 }

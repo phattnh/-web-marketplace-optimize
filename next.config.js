@@ -3,9 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    formats: ["image/webp", "image/*"],
-    minimumCacheTTL: 60,
-    domains: ["cdn-image-web-marketplace.herokuapp.com"],
+    domains: ["https://cdn-image-web-marketplace.herokuapp.com"],
   },
 };
 
